@@ -14,7 +14,8 @@ PKG_VERSION:=$(PKG_REV)-$(PKG_TAG)
 PKG_RELEASE:=4
 
 PKG_SOURCE:=$(PKG_NAME).$(PKG_REV)-$(patsubst %,%-prod,$(PKG_TAG)).tar.gz
-PKG_SOURCE_URL:=http://www.udpxy.com/download/1_23
+#PKG_SOURCE_URL:=http://www.udpxy.com/download/1_23
+PKG_SOURCE_URL:=https://fossies.org/linux/www
 PKG_MD5SUM:=0c953f7dd80329c1a062997afb9b6744
 PKG_MAINTAINER:=Álvaro Fernández Rojas <noltari@gmail.com>
 
